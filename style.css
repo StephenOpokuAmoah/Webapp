@@ -72,7 +72,7 @@ section{
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: #766CF1;
+  color: white;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -141,3 +141,6 @@ section{
     margin-top: 250px;
   }
 }
+
+
+
