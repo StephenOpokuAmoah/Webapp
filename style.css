@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #E0E8FF;
+  background-image: url(./Images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+main{
+background-color: white;
+height: auto;
+/* width: inherit; */
+width:33%;
+border-radius: 20px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+
+}
+
+section{
+  flex-shrink: 0;
+  margin: 0 30px;
+}
+
+.image{
+   width: 100%;
+   border-radius: 20px 20px 0 0;
+}
+
+  #body header{  
+      width: 30%;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 900;
+      color: #1F2E55;
+   }
+
+    #sentence{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+.Plan{
+  background-color: #F7F9FF;
+  border-radius: 11px;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin-bottom: 32px;
+}
+
+.left img{
+  height: 48px;
+  width: 48px;
+}
+
+.left{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.change{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #766CF1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.button-proceed{
+ height: 50px;
+  width: 100%;
+  background-color: #382AE1;
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  font-weight: 900;
+  color: white;
+  border-radius: 11px;
+ 
+  
+}
+ .button-cancel{
+  color: #717FA6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin: 10px 0 20px 0;
+} 
+
+/*mobile width,max-width=430px */
+
+
+@media screen and (min-width: 760px) and (max-width: 890px) {
+  main{
+    width: 70%;
+  }
+}
+@media screen and (min-width: 381px) and (max-width: 430px) {
+  main{
+    width: 90%;
+    /* margin-top: 100px; */
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 430px) {
+  main{
+    width: 90%;
+    /* margin-top: 50px; */
+  }
+}
+@media screen and(min-width: 320px) and (max-width: 380px) {
+  main{
+    width: 90%;
+    /* margin-top: 70px; */
+  }
+}
+@media screen and (max-width: 322px) {
+  main{
+    width: 90%;
+    /* height: 96%; */
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 162px) {
+  main{
+    width: 100%;
+    margin-top: 250px;
+  }
+}
