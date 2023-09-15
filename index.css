@@ -64,7 +64,8 @@ section{
 
 .left{  
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -72,7 +73,7 @@ section{
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: white;
+  color: #665aea;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -81,7 +82,7 @@ section{
  height: 50px;
   width: 100%;
   background-color: #382AE1;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 15px;
   border: none;
   font-weight: 900;
@@ -102,6 +103,12 @@ section{
 } 
 
 /*mobile width,max-width=430px */
+
+.button-proceed:hover{
+  cursor: pointer;
+  background-color: #766CF1;
+}
+
 
 
 @media screen and (min-width: 760px) and (max-width: 890px) {
